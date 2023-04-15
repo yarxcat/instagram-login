@@ -1,0 +1,182 @@
+
+/* Define as propriedades padrão para todos os elementos do documento */
+*{
+	border: none;
+	box-sizing: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Define o estilo da página de login */
+body {
+	background-color: #fafafa;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	height: 75vh;
+	margin: auto;
+	max-width: 930px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.justify-content-center {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/* Define o estilo do contêiner principal */
+.login-container {
+	margin:-84px auto;
+	width: 350px;
+	text-align: center;
+	margin-top: 100px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+}
+
+
+/* Define o estilo do logotipo do Instagram */
+.login-container img {
+	width: 188px;
+	height: 58px;
+	margin-bottom: 9px;
+}
+
+
+/* Define o estilo dos campos de entrada de texto */
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+
+/* Define o estilo do botão de login */
+button[type="submit"] {
+	background-color: #3897f0;
+	color: #fff;
+	border: none;
+    border-radius: 6px;
+	cursor: pointer;
+}
+
+
+/* Define o estilo da linha divisoria 'OU' */
+.ou {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.ou .linha {
+	flex: 1;
+	height: 1px;
+	background-color: #dbdbdb;
+}
+
+.ou .texto {
+	margin: 0 10px;
+	font-size: 14px;
+	color: #8e8e8e;
+}
+
+ /* Login com facebook */
+.fb-login {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fb-login p {
+	margin-bottom: 10px;
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+.fb-login button {
+	background-color: transparent;
+	color: #1877f2;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fb-login button b {
+	font-weight: bold;
+}
+
+.links a {
+	display: inline-block;
+	margin: 10px;
+	font-size: 14px;
+	color: #003569;
+	text-decoration: none;
+}
+
+/* Cadastre-se */
+.link0 p {
+	font-weight: bolder;
+	color: rgb(22, 21, 21);
+}
+.link0 a {
+	display: inline-block;
+	text-decoration: none;
+	color: #0084ff;
+}
+
+/* App download */
+ .app-download { padding: 77px; }
+ .app-download p { padding: 18px 0; text-align: center; }
+ .app-download img { 
+	 height: 35px; 
+	 margin: 0 5px;
+	 text-align: center;
+ }
+
+ /* Footer */
+footer {
+    margin: 0 auto 30px auto;
+    max-width: 935px;
+}
+footer ul { margin-bottom: 20px; }
+footer ul li { margin: 0 10px 10px; } 
+footer ul li a { color: #385185; }
+footer .copyright { color: #808080; }
+footer ul li a,
+footer .copyright {
+	font-size: 15px; 
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+ }
