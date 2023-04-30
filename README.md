@@ -1,5 +1,6 @@
 # 📲 Instagram Page
-                                                                        All content here is for educational and research purposes.
+` All content here is for educational and research purposes.`
+
 * Uma página de login `responsiva` do [Instagram](https://www.instagram.com/) com HTML e CSS.
 * Utilizando conceitos básicos.
 
